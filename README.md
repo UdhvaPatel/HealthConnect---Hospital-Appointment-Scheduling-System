@@ -56,4 +56,5 @@ Designed as part of a university project in Database Foundations for Business An
 Can be extended with a front-end in React or integrated with Node.js backend.
 
 👨‍💻 Author
+
 Udhva Patel
