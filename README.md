@@ -50,6 +50,7 @@ ORDER BY a.appointment_date, a.appointment_time;
 ```
 
 📌 Notes
+
 Designed as part of a university project in Database Foundations for Business Analytics.
 
 Can be extended with a front-end in React or integrated with Node.js backend.
