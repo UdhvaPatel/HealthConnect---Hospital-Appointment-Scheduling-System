@@ -47,4 +47,12 @@ FROM Appointments a
 JOIN Patients p ON a.patient_id = p.patient_id
 WHERE a.doctor_id = 3 AND a.appointment_date >= CURDATE()
 ORDER BY a.appointment_date, a.appointment_time;
+```
 
+📌 Notes
+Designed as part of a university project in Database Foundations for Business Analytics.
+
+Can be extended with a front-end in React or integrated with Node.js backend.
+
+👨‍💻 Author
+Udhva Patel
