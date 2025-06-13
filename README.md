@@ -34,11 +34,10 @@ procedures.sql
 sample_data.sql
 
 Start querying or building a front-end interface!
-
-```markdown
 ## 📝 Example Query
+```markdown
 
-\`\`\`sql
+
 -- Get upcoming appointments for a specific doctor
 SELECT 
     a.appointment_id,
@@ -49,8 +48,7 @@ FROM Appointments a
 JOIN Patients p ON a.patient_id = p.patient_id
 WHERE a.doctor_id = 3 AND a.appointment_date >= CURDATE()
 ORDER BY a.appointment_date, a.appointment_time;
-\`\`\`
-
+markdown```
 📌 Notes
 Designed as part of a university project in Database Foundations for Business Analytics.
 
