@@ -48,7 +48,7 @@ FROM Appointments a
 JOIN Patients p ON a.patient_id = p.patient_id
 WHERE a.doctor_id = 3 AND a.appointment_date >= CURDATE()
 ORDER BY a.appointment_date, a.appointment_time;
-markdown```
+```markdown
 📌 Notes
 Designed as part of a university project in Database Foundations for Business Analytics.
 
